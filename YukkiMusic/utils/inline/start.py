@@ -135,7 +135,7 @@ if SUPPORT_GROUP:
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text=_["قناه السورس"], url=f"{SUPPORT_GROUP}" 
+                        text=_["قناه السورس"], url=f"{https://t.me/Mus_3b2}" 
     )
     return buttons
 
