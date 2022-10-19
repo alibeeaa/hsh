@@ -130,5 +130,12 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
     buttons.append(
         [InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")]
+
+if SUPPORT_GROUP:
+            buttons.append(
+                [
+                    InlineKeyboardButton(
+                        text=_["قناه السورس"], url=f"{SUPPORT_GROUP}" 
     )
     return buttons
+
